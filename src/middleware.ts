@@ -42,7 +42,7 @@ export async function middleware(request: NextRequest) {
   }
 
   // 验证签名（如果存在）
-  if (authInfo.signature && process.env.PASSWORD) {
+/*   if (authInfo.signature && process.env.PASSWORD) {
     const isValidSignature = await verifySignature(
       authInfo.username,
       authInfo.signature,
@@ -56,7 +56,8 @@ export async function middleware(request: NextRequest) {
   }
 
   // 签名验证失败或不存在签名
-  return handleAuthFailure(request, pathname);
+  return handleAuthFailure(request, pathname); */
+  return NextResponse.next();
 }
 
 // 验证签名

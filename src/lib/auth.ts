@@ -10,7 +10,12 @@ export function getAuthInfoFromCookie(request: NextRequest): {
   const authCookie = request.cookies.get('auth');
 
   if (!authCookie) {
-    return null;
+    return {
+      password: "", 
+      username: "app",
+      signature: "app",
+      timestamp: 0
+    };
   }
 
   try {
