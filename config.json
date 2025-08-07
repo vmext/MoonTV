@@ -5,7 +5,6 @@
       "key": "tv",
       "name": "电视剧",
       "sub": [
-        { "key": "hot", "name": "热门" },
         {
           "key": "anime",
           "name": "动漫",
