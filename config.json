@@ -1,5 +1,12 @@
 {
   "cache_time": 7200,
+  "custom_category": [
+    {
+      "name": "动漫",
+      "type": "anime",
+      "query": "anime"
+    }
+  ],
   "categories": [
     {
       "key": "tv",
