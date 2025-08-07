@@ -1,5 +1,23 @@
 {
   "cache_time": 7200,
+  "categories": [
+    {
+      "key": "tv", // 电视类目
+      "name": "电视剧",
+      "sub": [
+        { "key": "hot", "name": "热门" },
+        {
+          "key": "anime",
+          "name": "动漫",
+          "filter": {
+            "area": ["日本", "中国", "欧美"],
+            "year": ["2025", "2024", "2023", "更早"],
+            "tag": ["热血", "战斗", "恋爱", "搞笑", "科幻", "修仙"]
+          }
+        }
+      ]
+    }
+  ],
   "api_site": {
     "dyttzy": {
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
