@@ -2,7 +2,7 @@
   "cache_time": 7200,
   "categories": [
     {
-      "key": "tv", // 电视类目
+      "key": "tv",
       "name": "电视剧",
       "sub": [
         { "key": "hot", "name": "热门" },
