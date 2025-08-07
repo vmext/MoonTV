@@ -7,23 +7,6 @@
       "query": "anime"
     }
   ],
-  "categories": [
-    {
-      "key": "tv",
-      "name": "电视剧",
-      "sub": [
-        {
-          "key": "anime",
-          "name": "动漫",
-          "filter": {
-            "area": ["日本", "中国", "欧美"],
-            "year": ["2025", "2024", "2023", "更早"],
-            "tag": ["热血", "战斗", "恋爱", "搞笑", "科幻", "修仙"]
-          }
-        }
-      ]
-    }
-  ],
   "api_site": {
     "dyttzy": {
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
